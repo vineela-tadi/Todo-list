@@ -35,13 +35,11 @@ This project demonstrates:
 3. Task will automatically appear in the list
 
 # 📂 Project Structure
-
 Todo-list/
-
- index.html
- todolist.css
- todolist.js
- edit.png
- trash.png
- README.md
+│── index.html
+│── todolist.css
+│── todolist.js
+│── edit.png
+│── trash.png
+│── README.md
 
