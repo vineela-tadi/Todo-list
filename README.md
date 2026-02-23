@@ -34,8 +34,9 @@ This project demonstrates:
 2. Speak your task clearly
 3. Task will automatically appear in the list
 
-# ## 📂 Project Structure
+# 📂 Project Structure
 
+```
 Todo-list
 │
 ├── index.html
@@ -44,5 +45,6 @@ Todo-list
 ├── edit.png
 ├── trash.png
 └── README.md
+```
 
 
