@@ -167,3 +167,16 @@ updateStats();
 saveTasks();
 }
 }
+// Voice button functionality
+const voiceBtn = document.getElementById('voiceBtn');
+const taskInput = document.getElementById('taskInput');
+
+voiceBtn.addEventListener('click', () => {
+    const text = taskInput.value; // get text from input
+    if(text){
+        const msg = new SpeechSynthesisUtterance(text); // create voice
+        window.speechSynthesis.speak(msg); // speak it
+    } else {
+        alert("Please write a task first!"); // optional
+    }
+});
